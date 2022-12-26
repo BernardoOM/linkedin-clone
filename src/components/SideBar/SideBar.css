@@ -1,0 +1,107 @@
+.sidebar {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    /* border: 1px solid black; */
+}
+
+.sidebar__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 0.625em;
+}
+
+.sidebar__top > img {
+    object-fit: cover;
+    margin-bottom: -1.25em;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sidebar__top > h4 {
+    color: gray;
+    font-size: 0.75rem;
+}
+
+.sidebar__top > h2 {
+    font-size: 1.125rem;
+}
+
+.sidebar__avatar {
+    margin-bottom: 0.625em;
+}
+
+.sidebar__stats {
+    margin-bottom: 0.625em;
+    padding: 0.625em;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar__stat {
+    margin-top: 0.625em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__stat > p {
+    color: gray;
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
+.sidebar__statNumber {
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+
+.sidebar__bottom {
+    margin-top: 0.625em;
+    padding: 0.625em;
+    text-align: left;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sidebar__bottom > p {
+    font-size: 0.8125rem;
+    padding-bottom: 0.625em;
+}
+
+.sidebar__recentItem {
+    width: 100%;
+    padding: 0.3125em;
+    display: flex;
+    align-items: center;
+    font-size: 0.8125rem;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.sidebar__recentItem:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sidebar__hash {
+    margin-right: 0.625em;
+    margin-left: 0.3125em;
+}
